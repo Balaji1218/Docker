@@ -15,7 +15,7 @@ B) Update github settings with this public ssh key
 
 ## 2. Git configuration process 
 
-A) configure git 
+A) Configure git 
 ```sh
 $ git config --global user.name ‘Your Name’ 
 
@@ -30,7 +30,7 @@ a) using ssh: `$ git clone git@github.com:Seagate/cortx-s3server.git`
 
 C) Update the source code:  `$ git submodule-update --init  --recursive` 
 
-D) work on feature branch  
+D) Work on feature branch  
 
 1)  create new branch: `$ git checkout –b dev/SS/test1` 
 
@@ -46,11 +46,11 @@ D) work on feature branch
 
 4)  check git log: `$ git log –2 (to see last 2 commits)` 
 
-5) push your code change:  `$ git push origin dev/SS/test1` (output shows pull request url)
+5)  push your code change:  `$ git push origin dev/SS/test1` (output shows pull request url)
 
-E)  create pull request for feature branch 
+E)  Create pull request for feature branch 
 
-A) use pull URL showed in prev push command and raise pull requests. 
+A) Use pull URL showed in prev push command and raise pull requests. 
 
 <img src="images/imgage1.PNG">
 
@@ -60,12 +60,19 @@ B) Use GitHub console,
 
 On GitHub, navigate to the main page of the repository.   
 In the "Branch" menu, choose the branch that contains your commits. 
+
 <img src="images/image2.PNG">
+
 C) Add Reviewers, comments for your pull requests 
+
 <img src="images/image3.PNG">
+
 D) Trigger pre-merge jenkins job using commit id of your change 
+
 1) get commit id of your change 
+
 <img src="images/image4.PNG">
+
 2) start pre-merge jobs using commit id: 
 http://eos-jenkins.mero.colo.seagate.com/job/S3server/job/s3-github-test/ 
 
