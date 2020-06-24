@@ -52,7 +52,7 @@ E)  create pull request for feature branch
 
 A) use pull URL showed in prev push command and raise pull requests. 
 
-<img src="images/imgage1.PNG" width="100">
+<img src="images/imgage1.PNG">
 
 Or  
 
