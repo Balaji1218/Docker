@@ -1,4 +1,3 @@
-
 # Frequently Asked Questions – GITHUB Process 
 
 # 1. Configure ssh keys 
