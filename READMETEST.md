@@ -1,4 +1,5 @@
-# FAQ – GITHUB Process 
+
+# Frequently Asked Questions – GITHUB Process 
 
 # 1. Configure ssh keys 
 
@@ -13,7 +14,7 @@ B) Update github settings with this public ssh key
 
   - Add new ssh key and then select Enable SSO option and Authorize for this key
 
-## 2. Git configuration process 
+# 2. Git configuration process 
 
 A) Configure git 
 ```sh
