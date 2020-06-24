@@ -60,16 +60,14 @@ B) Use GitHub console,
 
 On GitHub, navigate to the main page of the repository.   
 In the "Branch" menu, choose the branch that contains your commits. 
-
+<img src="images/image2.PNG">
 C) Add Reviewers, comments for your pull requests 
-
+<img src="images/image3.PNG">
 D) Trigger pre-merge jenkins job using commit id of your change 
-
 1) get commit id of your change 
-
+<img src="images/image4.PNG">
 2) start pre-merge jobs using commit id: 
-
-    http://eos-jenkins.mero.colo.seagate.com/job/S3server/job/s3-github-test/ 
+http://eos-jenkins.mero.colo.seagate.com/job/S3server/job/s3-github-test/ 
 
 F) Rebase your changes: 
 
@@ -101,6 +99,8 @@ G)  How to review others changes:
                    or 
     https://github.com/pulls/review-requested 
  2) select pull requests to review e.g. 
+ 
+ <img src="images/image5.PNG">
 
 G)  References: 
 
